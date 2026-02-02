@@ -37,12 +37,11 @@ The project follows a modular hierarchical approach:
 | **Reset** | `rst=1` | All displays and lights turn **Off**[cite: 309, 325]. |
 
 ## Members
-* **Tran Minh Tuong** - 2353304 [cite: 8]
-* **Nguyen Hieu Trung** - 2353244 [cite: 8]
-* **Ho Ngoc Quynh Anh** - 2352033 [cite: 8]
-* **Phuong Xuong Duc** - 2352270 [cite: 8]
-* **Pham Minh Nhat** - 2352863 [cite: 8]
-* **Lecturer**: Nguyen Thanh Loc [cite: 5]
+* **Tran Minh Tuong**
+* **Nguyen Hieu Trung** 
+* **Ho Ngoc Quynh Anh** 
+* **Phuong Xuong Duc** 
+* **Pham Minh Nhat** 
 
 ---
 © 2026 HCMUT - Faculty of Computer Science and Engineering[cite: 1, 11].
