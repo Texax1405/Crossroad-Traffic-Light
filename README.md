@@ -1,42 +1,31 @@
 # 🚦 Crossroad Traffic Light Controller (Verilog HDL)
 
-A functional traffic light management system designed for a four-way intersection using Verilog HDL[cite: 4, 23]. This project was developed as an assignment for the **Digital Design with HDL** course at **Ho Chi Minh City University of Technology (HCMUT)**[cite: 1, 3].
+A functional traffic light management system designed for a four-way intersection using Verilog HDL. This project was developed as an assignment for the **Digital Design with HDL** course at **Ho Chi Minh City University of Technology (HCMUT)**.
 
 ## Highlights
-* **Hierarchical Design**: Structured into manageable modules for easier debugging and integration[cite: 31, 32].
-* **Emergency Handling**: Specialized logic to prioritize specific directions during emergency situations (`emer1`, `emer2`)[cite: 49, 50].
-* **Countdown Display**: Integrated 7-segment display logic to show real-time countdown for traffic participants[cite: 51, 351].
-* **State Machine Logic**: Robust Finite State Machine (FSM) implementation to manage complex light sequences[cite: 36, 552].
+* **Hierarchical Design**: Structured into manageable modules for easier debugging and integration.
+* **Emergency Handling**: Specialized logic to prioritize specific directions during emergency situations (`emer1`, `emer2`).
+* **Countdown Display**: Integrated 7-segment display logic to show real-time countdown for traffic participants.
+* **State Machine Logic**: Robust Finite State Machine (FSM) implementation to manage complex light sequences.
 
 ## Overview
-The system controls two sets of traffic lights (TFL1 and TFL2) at a crossroad[cite: 23, 90]. 
+The system controls two sets of traffic lights (TFL1 and TFL2) at a crossroad. 
 * **Normal Mode Timing**: 
-    * Green: 3 seconds[cite: 239].
-    * Yellow: 3 seconds[cite: 239].
-    * Red: 6 seconds[cite: 239].
-* **Target Hardware**: Designed for FPGA boards, specifically optimized for the **Arty-7**[cite: 22].
+    * Green: 3 seconds.
+    * Yellow: 3 seconds.
+    * Red: 6 seconds.
+* **Target Hardware**: Designed for FPGA boards, specifically optimized for the **Arty-7**.
 
 ## System Architecture
-The project follows a modular hierarchical approach[cite: 31]:
-* `TopModule.v`: The main wrapper connecting all components[cite: 98].
-* `state_of_light.v`: Controls the global state (Normal vs. Emergency)[cite: 142, 143].
-* `traffic_light_1.v` & `traffic_light_2.v`: Manage individual light sequences and local counters[cite: 218, 288].
-* `seven_segment_display.v`: Converts binary counters into 7-segment LED signals[cite: 350, 351].
+The project follows a modular hierarchical approach:
+* `TopModule.v`: The main wrapper connecting all components.
+* `state_of_light.v`: Controls the global state (Normal vs. Emergency).
+* `traffic_light_1.v` & `traffic_light_2.v`: Manage individual light sequences and local counters.
+* `seven_segment_display.v`: Converts binary counters into 7-segment LED signals.
 
-## Getting Started
-
-### 1. Requirements
-* **Software**: Xilinx Vivado Design Suite[cite: 22].
-* **Language**: Verilog HDL[cite: 24].
-
-### 2. How to Install Vivado
-To run the simulations or synthesize the code:
-1.  Go to the [Xilinx Vivado Official Page](https://www.xilinx.com/products/design-tools/vivado.html).
-2.  Download the **Vivado ML Standard Edition** (Free version).
-3.  During installation, ensure the **Artix-7** device support is selected to match the project requirements[cite: 22].
-
-### 3. Simulation & Testing
-To verify the design, a testbench (`tb_TopModule.v`) is provided[cite: 457]. Run the **Behavioral Simulation** in Vivado to see the waveforms[cite: 35, 38].
+## Requirements
+* **Software**: Xilinx Vivado Design Suite.
+* **Language**: Verilog HDL.
 
 ## Test Cases
 | Scenario | Inputs | Expected Result |
