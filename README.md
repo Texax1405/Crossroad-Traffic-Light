@@ -30,11 +30,11 @@ The project follows a modular hierarchical approach:
 ## Test Cases
 | Scenario | Inputs | Expected Result |
 | :--- | :--- | :--- |
-| **Normal Cycle** | `rst=0`, `emer1=0`, `emer2=0` | Lights cycle Green -> Yellow -> Red[cite: 259, 329]. |
-| **Emergency 1** | `emer1=1`, `emer2=0` | Light 1 stays **Green**, Light 2 stays **Red**[cite: 546]. |
-| **Emergency 2** | `emer1=0`, `emer2=1` | Light 2 stays **Green**, Light 1 stays **Red**[cite: 547]. |
-| **Collision Prevention**| `emer1=1`, `emer2=1` | Both lights stay **Green** then turn off for safety[cite: 548]. |
-| **Reset** | `rst=1` | All displays and lights turn **Off**[cite: 309, 325]. |
+| **Normal Cycle** | `rst=0`, `emer1=0`, `emer2=0` | Lights cycle Green -> Yellow -> Red. |
+| **Emergency 1** | `emer1=1`, `emer2=0` | Light 1 stays **Green**, Light 2 stays **Red**. |
+| **Emergency 2** | `emer1=0`, `emer2=1` | Light 2 stays **Green**, Light 1 stays **Red**. |
+| **Collision Prevention**| `emer1=1`, `emer2=1` | Both lights stay **Green** then turn off for safety. |
+| **Reset** | `rst=1` | All displays and lights turn **Off**. |
 
 ## Members
 * **Tran Minh Tuong**
