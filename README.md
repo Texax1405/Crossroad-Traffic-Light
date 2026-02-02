@@ -1,4 +1,4 @@
-# 🚦 Crossroad Traffic Light Controller (Verilog HDL)
+# Crossroad Traffic Light Controller (Verilog HDL)
 
 A functional traffic light management system designed for a four-way intersection using Verilog HDL. This project was developed as an assignment for the **Digital Design with HDL** course at **Ho Chi Minh City University of Technology (HCMUT)**.
 
